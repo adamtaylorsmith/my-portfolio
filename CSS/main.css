@@ -49,7 +49,7 @@ li {
 }
 .myNav {
     font-weight: 800;
-    font-size: 25px;
+    font-size: 23px;
     padding-top: 45px;
     padding-bottom: 10px;
     color: #444444;
@@ -77,7 +77,7 @@ li {
     /* color: #35393e; */
     color: #444444;
     font-weight: 900;
-    font-size: 42px;
+    font-size: 36px;
     text-align: center;
     margin-top: 50px;
 }
@@ -85,7 +85,7 @@ li {
     margin: 50px 6% 40px 6%;
     color: #444444;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 22px;
     text-align: center;
     line-height: 1.8;
 }
@@ -94,7 +94,7 @@ li {
     border: 1px lightgrey solid;
 }
 .skillSet {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.7;
     padding: 5px 30px;
 }
@@ -110,7 +110,7 @@ li {
     /* text-align: center; */
 }
 .techlist {
-    font-size: 18px;
+    font-size: 17px;
     font-weight: 500;
     text-align: center;
     padding: 15px 5% 5px 5%;
@@ -144,11 +144,11 @@ li {
 }
 .cardtexty {
     line-height: 1.7;
-    font-size: 18px;
-    padding: 15px 40px 20px 20px;
+    font-size: 17px;
+    padding: 15px 45px 20px 20px;
 }
 .cardtextyspec {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.7;
     padding: 10px 10px 20px 10px;
 }
@@ -159,7 +159,7 @@ li {
 
 /*********************** Employment */
 .historyP {
-    font-size: 19px;
+    font-size: 17px;
     line-height: 1.6;
 }
 #historyTitle {
