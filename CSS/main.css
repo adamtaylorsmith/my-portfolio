@@ -1,0 +1,248 @@
+@import "variables.css";
+@import "navbar.css";
+:root {
+    --red: #e80d0d;
+    --dkred: #972D3B;
+    --blue: #1D3EC7;
+    --bluegreen: #165F7E;
+    --dkbluegreen: #163755;
+    --orange: #f98500;
+    --green: #2C9A43;
+    --yellow: #F9FC38;
+    --black: #080807;
+    --grey: #EFEFEE;
+    --font-one: font-family: 'Roboto', sans-serif;
+}
+/* *************************/
+/* ********************** BODY */
+body {
+    /* background: #eee2dc; #98A5B3*/
+    background: #f9f5f3;
+    font-family: var(--font-one);
+    /* font-size: 20px;   */
+    color: #444444;
+    letter-spacing: .02em;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+li {
+    list-style: none;
+    list-style-type: none;
+    color: #444444;
+}
+.sectionHead {
+    font-weight: 800;
+    text-align: center;
+}
+.stripe {
+    width: 80vw;
+    align-content: center;
+}
+.topstripe {
+    padding-top: 40px;
+}
+/* **************** 1st VH */
+.nav {
+    background-color: #f9f5f3;
+}
+.myNav {
+    font-weight: 800;
+    font-size: 25px;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    color: #444444;
+}
+.myNav:hover {
+    text-decoration: underline;
+    color: #444444;
+}
+.myNavGreen {
+    color: forestgreen;
+}
+.myNavRed {
+    color: red;
+}
+.myNavBlue {
+    color: var(--blue);
+}
+.myNavBg {
+    color: darkorange;
+}
+#envel {
+    margin-top: 35px;
+}
+#newHead {
+    /* color: #35393e; */
+    color: #444444;
+    font-weight: 900;
+    font-size: 42px;
+    text-align: center;
+    margin-top: 50px;
+}
+#phead {
+    margin: 50px 6% 40px 6%;
+    color: #444444;
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.8;
+}
+/*********************** Skills */
+.outline {
+    border: 1px lightgrey solid;
+}
+.skillSet {
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 5px 30px;
+}
+.skillsetBigHead {
+    margin-top: 30px;
+}
+.skillsHead {
+    text-align: center;
+    font-weight: 600;
+}
+.skillSetTech {
+    font-size: .95em;
+    /* text-align: center; */
+}
+.techlist {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    padding: 15px 5% 5px 5%;
+    /* background-color: white; */
+}
+#techlist {
+    padding-left: 30px;
+}
+.techlogo {
+    height: 50px;
+}
+/*********************** Projects */
+.cardstyle {
+    font-size: .9em;
+    width: 99%;
+    padding: 0 25px 10px 25px;
+}
+.bold {
+    font-size: 1.1em;
+    font-weight: 600;
+}
+.white {
+    background-color: white;
+}
+.anchor {
+    color: #444444;
+}
+.anchor:hover {
+    text-decoration: underline;
+    color: #444444;
+}
+.cardtexty {
+    line-height: 1.7;
+    font-size: 18px;
+    padding: 15px 40px 20px 20px;
+}
+.cardtextyspec {
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 10px 10px 20px 10px;
+}
+}
+.makesomeroom {
+    padding-top: 10px;
+}
+
+/*********************** Employment */
+.historyP {
+    font-size: 19px;
+    line-height: 1.6;
+}
+#historyTitle {
+    text-align: center;
+    font-weight: 600;
+}
+.td {
+    font-size: .9em;
+}
+.th {
+    font-weight: 600;
+}
+
+.special {
+    padding-bottom: 6px;
+    font-size: 22px;
+}
+.littleheader {
+    font-size: 20px;
+}
+#formal {
+    line-height: 1.7;
+    font-size: 19px;
+}
+/*********************** Biography */
+.content {
+    font-size: 19px;
+    padding: 0 20px;
+}
+#biohead {
+    text-align: center;
+}
+.bioheads {
+    font-weight: 600;
+}
+#decath {
+    float: right;
+    width: 450px;
+}
+.floatsy {
+    float: right;
+}
+.floaty {
+    float: left;
+}
+#firstave {
+    padding: 10px 0 0 5px;
+}
+#hop {
+    width: 200px;
+}
+#nine11 {
+    padding: 10px 0 0 5px;
+    width: 200px;
+}
+#chef {
+    padding: 0 0 25px 0;
+    width: 125px;
+}
+#bar {
+    padding: 10px 0 0 5px;
+    width: 200px;
+}
+#extra {
+    padding: 0 0 15px 0;
+}
+/*********************** FOOTER */
+label {
+    font-weight: 600;
+}
+input {
+    width: 150%;
+}
+textarea {
+    width: 225%;
+}
+.footer {
+    text-align: center;
+}
+#colorme {
+    color: #444444;
+    font-weight: 600;
+}
+.padit {
+    padding-left: 50px;
+}
