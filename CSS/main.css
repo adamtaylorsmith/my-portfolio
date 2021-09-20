@@ -73,7 +73,7 @@ li {
 #envel {
     margin-top: 35px;
 }
-#newHead {
+.newHead {
     /* color: #35393e; */
     color: #444444;
     font-weight: 900;
