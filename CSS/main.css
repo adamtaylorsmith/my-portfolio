@@ -44,21 +44,6 @@ table {
 	border-spacing: 0;
 }
 
-@import "variables.css";
-@import "navbar.css";
-:root {
-    --red: #e80d0d;
-    --dkred: #972D3B;
-    --blue: #1D3EC7;
-    --bluegreen: #165F7E;
-    --dkbluegreen: #163755;
-    --orange: #f98500;
-    --green: #2C9A43;
-    --yellow: #F9FC38;
-    --black: #080807;
-    --grey: #EFEFEE;
-    --font-one: font-family: 'Roboto', sans-serif;
-}
 /* *************************/
 /* ********************** BODY */
 body {
@@ -93,9 +78,14 @@ li {
 /* **************** 1st VH */
 .nav {
     background-color: #f9f5f3;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
 }
 @media (max-width: 950px) {
     .myNav {
+        /* flex: 1; */
+        /* flex-basis: 10%; */
         font-weight: 800;
         font-size: 19px;
         padding-top: 35px;
@@ -105,6 +95,7 @@ li {
 }
 @media (min-width: 951px) {
     .myNav {
+        /* flex: 1; */
         font-weight: 800;
         font-size: 24px;
         padding-top: 45px;
@@ -116,26 +107,8 @@ li {
     text-decoration: underline;
     color: #444444;
 }
-.myNavGreen {
-    color: forestgreen;
-}
-.myNavRed {
-    color: red;
-}
-.myNavBlue {
-    color: var(--blue);
-}
-.myNavBg {
-    color: darkorange;
-}
 #envel {
     margin-top: 35px;
-}
-@media() {
-
-}
-@media() {
-    
 }
 @media (max-width: 950px) {
     .newHead {
@@ -238,7 +211,7 @@ li {
     padding: 15px 45px 20px 20px;
 }
 .cardtextyspec {
-    font-size: 17px;
+    font-size: 18px;
     line-height: 1.7;
     padding: 10px 10px 20px 10px;
 }
@@ -272,6 +245,9 @@ li {
 #formal {
     line-height: 1.7;
     font-size: 19px;
+}
+.boldit {
+    font-weight: 900;
 }
 /*********************** Biography */
 .content {
