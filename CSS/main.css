@@ -184,6 +184,42 @@ li {
 }
 .techlogo {
     height: 50px;
+    justify-content: center; 
+    align-items: center;
+}
+
+@media (min-width: 1101px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0 2%;
+    }
+}
+@media (max-width: 1100px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+.flex-container-skill {
+    display: flex;
+    flex-direction: col;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: auto;
+}
+.alignment {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.skill-text {
+    text-align: center;
 }
 /*********************** Projects */
 
